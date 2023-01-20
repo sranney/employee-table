@@ -1,0 +1,7 @@
+node_modules
+server/*
+postcss.config.js
+tailwind.config.js
+jest.config.js
+npm-debug.log
+dist
