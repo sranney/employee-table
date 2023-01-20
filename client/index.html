@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="http://localhost:5173/client/index.css" />
+    <title>Employee Directory</title>
+  </head>
+  <body class="p-0 m-0">
+    <main id="app"></main>
+    <div class="absolute left-0 top-0" id="modal-root"></div>
+    <script type="module">
+      import RefreshRuntime from 'http://localhost:5173/@react-refresh'
+      RefreshRuntime.injectIntoGlobalHook(window)
+      window.$RefreshReg$ = () => {}
+      window.$RefreshSig$ = () => (type) => type
+      window.__vite_plugin_react_preamble_installed__ = true
+    </script>
+    <script
+      type="module"
+      src="http://localhost:5173/client/ts/index.tsx"
+    ></script>
+  </body>
+</html>
